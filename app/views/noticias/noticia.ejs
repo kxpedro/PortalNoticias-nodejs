@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Portal de Notícias</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		<link href="css/style.css" rel="stylesheet">
+		<link rel="shortcut icon" href="images/favicon.ico" />		
+	</head>
+	<body>
+		<nav class="navbar navbar-light bg-light">
+			<div class="container">			
+				<a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="noticia_wrapper">
+						<span class="noticia_autor"> <%= noticia[0].autor %> </span>
+						<a href="noticia" class="noticia_titulo"> <%= noticia[0].titulo %> </a>
+						<span class="noticia_data"> <%= noticia[0].data_criacao %> </span>
+						<br />
+						<p class="noticia_resumo"> <%= noticia[0].noticia %> </p>
+					</div>
+				</div>
+			</div>	
+		</div>	
+	</body>]
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</html>
