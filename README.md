@@ -1,6 +1,6 @@
 Portal de Noticias  
 
-*node-modules contém muitos arquivos então zipei : )*
+*node-modules zipado*
 
 * express
 * express-validator
